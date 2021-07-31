@@ -1,0 +1,23 @@
+server:
+  ip: 127.0.0.1
+  port: 25565
+  name: survival
+bow:
+  maxMultiplier: 10.0
+  baseScore: 5
+message:
+  join: "&bYou have joined the fallback server. Feel free to play around while you wait for the server to come back online."
+  online: "&dThe survival server is back online! Join back using the NPC."
+  offline: "&cThe survival server is currently offline! Please try again later."
+  send: "&bSending you to the survival server..."
+  resourcepack:
+    declined: "&cYou have declined the resource pack!\n&cYou can play without it but we would highly recommend using it!"
+    failed: "&cYou accepted the resource pack but it failed to download!\n&cPlease try to re-join or you can play without it."
+    accepted: "&eAccepted the resource pack! Waiting for download..."
+    loaded: "&eResource pack loaded! Sending you to the survival server..."
+# Set to -1 to not auto-join
+delay:
+  declined: 3
+  failed: -1
+  accepted: -1
+  loaded: 1

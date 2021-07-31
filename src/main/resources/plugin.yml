@@ -1,0 +1,11 @@
+  name: NovaFallback
+  author: Nova
+  description: Plugin to manage the Nova fallback server.
+  version: 1.0-SNAPSHOT
+  main: xyz.novaserver.fallback.Fallback
+  api-version: 1.16
+  depend: [NovaEnchants]
+
+  commands:
+    join:
+      description: Attempts to join back to main server.
